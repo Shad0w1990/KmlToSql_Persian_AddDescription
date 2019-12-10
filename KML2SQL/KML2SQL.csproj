@@ -188,6 +188,11 @@
       <Name>Kml2Sql.Mapping</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="SqlFunc\geometry2json.sql" />
+    <Content Include="SqlFunc\GetGeoJSON.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
