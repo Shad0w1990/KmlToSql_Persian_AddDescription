@@ -74,7 +74,7 @@ namespace KML2SQL
                     }                    
                 }
                 ReportProgress("Creating Table", 0);
-               // CreateTable(connection);
+                CreateTable(connection);
                 var mapFeatures = Mapper.GetMapFeatures().ToArray();
                 for (var i = 0; i < mapFeatures.Length; i++)
                 {
